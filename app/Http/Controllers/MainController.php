@@ -64,4 +64,8 @@ class MainController extends Controller
 
         return view('dashboard/test-attempt');
     }
+    public function suparFutureClub(){
+
+        return view('dashboard/supar-future-club');
+    }
 }
