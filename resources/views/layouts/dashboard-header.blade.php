@@ -54,7 +54,7 @@ $customer_name =CustomerDetails::where('user_id', Auth::user()->id)->value('firs
                     <a class="nav-link " aria-current="page" href="{{url('test-attempt')}}">My Test Attempts</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">Profile</a>
+                    <a class="nav-link " aria-current="page" href="{{url('profile')}}">Profile</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " aria-current="page" href="#">Our Events</a>
@@ -66,7 +66,7 @@ $customer_name =CustomerDetails::where('user_id', Auth::user()->id)->value('firs
                     <a class="nav-link " aria-current="page" href="#">Parent Community</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">Super Future Club</a>
+                    <a class="nav-link " aria-current="page" href="{{url('supar-future-club')}}">Super Future Club</a>
                 </li>
                 <li class="nav-item logout">
                     <a class="nav-link " aria-current="page" href="{{url('logout')}}">Logout</a>

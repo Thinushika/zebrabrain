@@ -68,4 +68,8 @@ class MainController extends Controller
 
         return view('dashboard/supar-future-club');
     }
+    public function profile(){
+
+        return view('dashboard/profile');
+    }
 }
