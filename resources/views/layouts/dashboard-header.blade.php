@@ -51,7 +51,7 @@ $customer_name =CustomerDetails::where('user_id', Auth::user()->id)->value('firs
                     <a class="nav-link " aria-current="page" href="{{url('university-programs')}}">Universities Programs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">My Test Attempts</a>
+                    <a class="nav-link " aria-current="page" href="{{url('test-attempt')}}">My Test Attempts</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " aria-current="page" href="#">Profile</a>
