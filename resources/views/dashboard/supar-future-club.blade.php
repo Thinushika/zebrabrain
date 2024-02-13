@@ -1,34 +1,42 @@
 @include('layouts.dashboard-header')
 <div class="dashboard-page-content">
 
-    <h3 class="section-title text-purple mt-3">
-        Super future club
-    </h3>
+    <div class="p-3 w-100">
+        <h3 class="section-title text-purple mt-3">
+            Super future club
+        </h3>
 
 
-    <div class="d-flex flex-row">
-        <div class="col-8">
-            <h3 class="section-title text-purple mt-3">
-                Sample heading
-            </h3>
-            <p class="section-description-intentship mt-1 pe-5">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit voluptatibus qui possimus doloremque et nesciunt beatae minus delectus similique nobis maxime adipisci non eligendi saepe accusamus unde, dignissimos, odit necessitatibus totam illum eius animi consequuntur repellat. Quod ab amet, laborum debitis officiis placeat ullam voluptatem esse aliquid iure sit perferendis.
-            </p>
-            <p class="section-description-intentship mt-1 pe-5">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quia repellat modi? Ullam laudantium reiciendis inventore explicabo quisquam error illo quidem, recusandae accusamus ducimus voluptatibus amet quibusdam officia enim non.
-            </p>
+        <div class="d-flex flex-row">
+            <div class="col-8">
+                <h3 class="section-title text-purple mt-3">
+                    Sample heading
+                </h3>
+                <p class="section-description-intentship mt-1 pe-5">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit voluptatibus qui possimus
+                    doloremque et nesciunt beatae minus delectus similique nobis maxime adipisci non eligendi saepe
+                    accusamus unde, dignissimos, odit necessitatibus totam illum eius animi consequuntur repellat. Quod
+                    ab amet, laborum debitis officiis placeat ullam voluptatem esse aliquid iure sit perferendis.
+                </p>
+                <p class="section-description-intentship mt-1 pe-5">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quia repellat modi? Ullam laudantium
+                    reiciendis inventore explicabo quisquam error illo quidem, recusandae accusamus ducimus voluptatibus
+                    amet quibusdam officia enim non.
+                </p>
+            </div>
+            <div class="col-4">
+                <img src="{{ asset('assets/images/zebra1.PNG') }}" class="w-100" style="border-radius: 8px">
+            </div>
         </div>
-        <div class="col-4">
-            <img src="{{ asset('assets/images/zebra1.PNG') }}" class="w-100" style="border-radius: 8px">
-        </div>
+
+        <h3 class="section-title2 text-purple mt-5">Sample heading
+        </h3>
+        <p class="section-description-intentship mt-1 pe-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quia repellat modi? Ullam laudantium
+            reiciendis inventore explicabo quisquam error illo quidem, recusandae accusamus ducimus voluptatibus amet
+            quibusdam officia enim non.
+        </p>
     </div>
-
-    <h3 class="section-title2 text-purple mt-5">Sample heading
-    </h3>
-    <p class="section-description-intentship mt-1 pe-5">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quia repellat modi? Ullam laudantium reiciendis inventore explicabo quisquam error illo quidem, recusandae accusamus ducimus voluptatibus amet quibusdam officia enim non.
-    </p>
-    
 
 </div>
 @include('layouts.dashboard-footer')

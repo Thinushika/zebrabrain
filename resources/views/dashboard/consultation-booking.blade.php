@@ -1,7 +1,7 @@
 @include('layouts.dashboard-header')
 <div class="dashboard-page-content">
     
-    <div class="d-flex flex-row">
+    <div class="d-flex flex-row p-3 w-100">
         <div class="col-9 scrollable-column">
             <h3 class="section-title text-purple mt-3">
                 consultation booking

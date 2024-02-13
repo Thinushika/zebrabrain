@@ -1,5 +1,26 @@
+
+<div class="d-flex flex-column flex-lg-row footerSec py-3 px-0">
+    <div class="col-12 col-lg-6 d-flex flex-column flex-lg-row">
+        <div class="col-12 col-lg-6 d-flex justify-content-center">
+            <i class="bi bi-envelope px-2"></i>
+            zebrabrain@gmail.com
+        </div>
+        <div class="col-12 col-lg-6 d-flex justify-content-center">
+            <i class="bi bi-geo-alt px-2"></i>
+            Address
+        </div>
+    </div>
+    <div class="col-12 col-lg-6 d-flex justify-content-end socialIcons pe-3">
+        <i class="bi bi-facebook px-2"></i>
+        <i class="bi bi-twitter px-2"></i>        
+        <i class="bi bi-google px-2"></i>        
+        <i class="bi bi-instagram px-2"></i>    
+    </div>
+</div>
+
 </div>
 </div>
+
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">

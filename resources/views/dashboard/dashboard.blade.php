@@ -1,6 +1,8 @@
 @include('layouts.dashboard-header')
 <div class="dashboard-page-content">
-    <h3 class="section-title-big  ">Hi ! Good Evening</h3>
+    <div class="p-3 w-100">
+
+        <h3 class="section-title-big  ">Hi ! Good Evening</h3>
     <h3 class="section-title text-purple mt-5">Let's check your future opportunities</h3>
     <!-- <h3 class="section-title text-purple">Your Flow & Frow Tips</h3> -->
     <!-- <p class="section-description mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla molestie arcu eu finibus.</p> -->
@@ -490,6 +492,7 @@
             <button class="yellow-btn mt-4 px-5">Join now</button>
         </div>
         
+    </div>
     </div>
 
 
