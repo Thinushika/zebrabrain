@@ -408,7 +408,7 @@
     display: none;
 }
 .hideOnMobile{
-    display: block;
+    display: flex;
 }
 @media screen and (max-width: 600px) {
     .displayOnMobile{
@@ -416,5 +416,22 @@
     }
     .hideOnMobile{
         display: none;
+    }
+
+    .section-title{
+        font-size: 30px;
+    }
+    .dashboard-page-content{
+        min-height: 100vh;
+        padding-top: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    .grayBox{
+        background-color: #212529;
+        border-radius: 30px;
+        height: 100px;
+        width: 100%;
     }
 }

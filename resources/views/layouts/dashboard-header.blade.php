@@ -23,7 +23,7 @@ $customer_name =CustomerDetails::where('user_id', Auth::user()->id)->value('firs
 <body>
     <div class="container-fluid">
     <div class="row px-0 ">
-        <div class="col-md-2 dashboard-nav vh-100 hideOnMobile">
+        <div class="col-md-2 dashboard-nav vh-100 hideOnMobile flex-column">
             <div class="logo">
                 <img src="{{ asset('assets/images/zebra_logo.PNG') }}"  alt="Logo">
             </div>

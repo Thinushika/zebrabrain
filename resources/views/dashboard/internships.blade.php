@@ -1,12 +1,15 @@
 @include('layouts.dashboard-header')
-<div class="dashboard-page-content pe-5">
+<div class="dashboard-page-content pe-lg-5">
 
-    <div class="p-3 w-100">
-        <h3 class="section-title text-purple mt-3">
+    <div class="p-4 p-lg-3 w-100">
+        <h3 class="section-title text-purple mt-3 hideOnMobile">
             Internship programs
         </h3>
+        <h3 class="section-title text-purple mt-3 mb-4 mb-lg-0 displayOnMobile">
+            Internships
+        </h3>
         <div class="d-flex flex-row justify-content-between ">
-            <h3 class="section-title2 text-purple mt-3">
+            <h3 class="section-title2 text-purple mt-lg-3">
                 Business
             </h3>
             <div class="d-flex flex-row align-items-center">
@@ -30,7 +33,7 @@
                     <i class="bi bi-star"></i>
                 </span>
             </div>
-            <p class="section-description-intentship mt-1 pe-5">
+            <p class="section-description-intentship mt-1 pe-lg-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet perferendis suscipit labore temporibus et,
                 aspernatur ipsa deleniti laborum quos harum vitae distinctio alias molestiae, asperiores magni tempore
                 enim
@@ -57,7 +60,7 @@
                     <i class="bi bi-star"></i>
                 </span>
             </div>
-            <p class="section-description-intentship mt-1 pe-5">
+            <p class="section-description-intentship mt-1 pe-lg-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet perferendis suscipit labore temporibus et,
                 aspernatur ipsa deleniti laborum quos harum vitae distinctio alias molestiae, asperiores magni tempore
                 enim
@@ -84,7 +87,7 @@
                     <i class="bi bi-star"></i>
                 </span>
             </div>
-            <p class="section-description-intentship mt-1 pe-5">
+            <p class="section-description-intentship mt-1 pe-lg-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet perferendis suscipit labore temporibus et,
                 aspernatur ipsa deleniti laborum quos harum vitae distinctio alias molestiae, asperiores magni tempore
                 enim
@@ -111,7 +114,7 @@
                     <i class="bi bi-star"></i>
                 </span>
             </div>
-            <p class="section-description-intentship mt-1 pe-5">
+            <p class="section-description-intentship mt-1 pe-lg-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet perferendis suscipit labore temporibus et,
                 aspernatur ipsa deleniti laborum quos harum vitae distinctio alias molestiae, asperiores magni tempore
                 enim
