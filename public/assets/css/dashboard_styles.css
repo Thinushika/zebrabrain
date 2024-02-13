@@ -207,6 +207,13 @@
     font-size: 12px;
     font-weight: 300;
 }
+.eventDateTimePurple{
+    color: #5a559d;
+    opacity: 0.8;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: end;
+}
 
 .yellow-text{
     color: #ffde1c;
@@ -235,4 +242,72 @@
 
 .eventImgWrapper:hover .eventImage {
     transform: scale(1.3);
+}
+
+.parentInput{
+    color:#5a559d;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 8px;
+    border: solid 1px #000;
+    min-width: 300px;
+}
+.parentInput::placeholder{
+    color: #5a559d;
+}
+.postbutton{
+    color:#5a559d;
+    background-color: #ffde1c;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+     border: none;
+     padding: 5px 25px;
+}
+.AddImage{
+    color:#5a559d;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+     border: none;
+     padding: 5px 25px;
+}
+.parentComment{
+    color:#5a559d;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+     border: solid 1px #5a559d;
+     padding: 5px 25px;
+}
+.parentName{
+ color: #5a559d;
+ font-size: 16px;
+  font-weight: 700;
+}
+.parentCareer{
+    color: #212529;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.scrollSec{
+    height: 300px;
+    overflow-y: auto;
+}
+.scrollSec::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+
+.scrollSec::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.scrollSec::-webkit-scrollbar-thumb {
+    background: transparent;
 }

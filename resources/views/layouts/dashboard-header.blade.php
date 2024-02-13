@@ -63,7 +63,7 @@ $customer_name =CustomerDetails::where('user_id', Auth::user()->id)->value('firs
                     <a class="nav-link " aria-current="page" href="{{url('packages')}}">Pricing Packages</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">Parent Community</a>
+                    <a class="nav-link " aria-current="page" href="{{url('parent-community')}}">Parent Community</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " aria-current="page" href="{{url('supar-future-club')}}">Super Future Club</a>

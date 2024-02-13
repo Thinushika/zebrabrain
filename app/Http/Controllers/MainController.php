@@ -76,4 +76,8 @@ class MainController extends Controller
 
         return view('dashboard/event');
     }
+    public function parentCommunity(){
+
+        return view('dashboard/parent-community');
+    }
 }
