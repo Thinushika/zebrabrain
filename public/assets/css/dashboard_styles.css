@@ -191,6 +191,23 @@
     color: var(--color-purple);
 }
 
+.yellow-text-lg{
+    color: #ffde1c;
+    font-size: 16px;
+    font-weight: 700;
+}
+.white-text-lg{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.eventDateTime{
+    color: #fff;
+    opacity: 0.8;
+    font-size: 12px;
+    font-weight: 300;
+}
+
 .yellow-text{
     color: #ffde1c;
     font-size: 14px;
@@ -199,4 +216,23 @@
 .yellow-text-small{
     color: #ffde1c;
     font-size: 10px;
+}
+
+.eventcard{
+    background-color: #5a559d;
+    border-radius: 10px;
+}
+
+.eventImgWrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.eventImgWrapper .eventImage {
+    transition: transform 0.3s ease;
+}
+
+.eventImgWrapper:hover .eventImage {
+    transform: scale(1.3);
 }

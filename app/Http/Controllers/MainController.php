@@ -72,4 +72,8 @@ class MainController extends Controller
 
         return view('dashboard/profile');
     }
+    public function events(){
+
+        return view('dashboard/event');
+    }
 }

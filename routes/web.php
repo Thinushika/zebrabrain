@@ -42,5 +42,6 @@ Route::match(['get', 'post'],'/university-programs', [MainController::class, 'un
 Route::match(['get', 'post'],'/test-attempt', [MainController::class, 'testAttempt'])->middleware('authCustomer');
 Route::match(['get', 'post'],'/supar-future-club', [MainController::class, 'suparFutureClub'])->middleware('authCustomer');
 Route::match(['get', 'post'],'/profile', [MainController::class, 'profile'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/events', [MainController::class, 'events'])->middleware('authCustomer');
 
 
