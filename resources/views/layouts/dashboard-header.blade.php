@@ -22,8 +22,8 @@ $customer_name =CustomerDetails::where('user_id', Auth::user()->id)->value('firs
 </head>
 <body>
     <div class="container-fluid">
-    <div class="row px-0">
-        <div class="col-md-2 dashboard-nav vh-100">
+    <div class="row px-0 ">
+        <div class="col-md-2 dashboard-nav vh-100 hideOnMobile">
             <div class="logo">
                 <img src="{{ asset('assets/images/zebra_logo.PNG') }}"  alt="Logo">
             </div>
@@ -74,7 +74,7 @@ $customer_name =CustomerDetails::where('user_id', Auth::user()->id)->value('firs
               </ul>
         </div>
         <div class="col-md-10 vh-100 overflow-auto px-0 dashbordContainer">
-            <div class="row dashboard-top align-items-center">
+            <div class="row dashboard-top align-items-center hideOnMobile">
                 <div class="col-md-3 text-start">
                     <div class="input-group search">
                         <input type="text" class="form-control" placeholder="Type what you need to know"  style="background: transparent;">

@@ -403,3 +403,18 @@
         min-height: 75vh;
     }
   }
+
+.displayOnMobile{
+    display: none;
+}
+.hideOnMobile{
+    display: block;
+}
+@media screen and (max-width: 600px) {
+    .displayOnMobile{
+        display: block;
+    }
+    .hideOnMobile{
+        display: none;
+    }
+}
