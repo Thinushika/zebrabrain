@@ -7,7 +7,7 @@
         <div class="d-flex flex-row mt-5">
             <input type="text" placeholder="What's on your mind?" class="parentInput me-2">
             <button class="postbutton  me-2">Post</button>
-            <button class="AddImage">
+            <button class="AddImage hideOnMobile">
                 + Add Image
             </button>
         </div>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="d-flex flex-column flex-lg-row w-100">
-                    <div class="col-6">
+                    <div class="col-12 col-lg-6">
 
 
                         <p class="parentName mb-0">Post title name</p>
@@ -35,9 +35,9 @@
                             <p class="eventDateTimePurple">2hrs agos</p>
                         </div>
                     </div>
-                    <div class="col-6 px-5 d-flex flex-column">
+                    <div class="col-12 col-lg-6 px-2 px-lg-5 d-flex flex-column">
                         <div class="scrollSec">
-                            <div class="d-flex flex-row">
+                            <div class="d-flex flex-column flex-lg-row">
                                 <div class="col-12 col-lg-2 px-2">
                                     <img src="{{ asset('assets/images/zebra1.PNG') }}"
                                         style="border-radius: 100%; width: 70px; height: 70px;">
@@ -52,7 +52,7 @@
                                     <p class="eventDateTimePurple">2 hrs ago</p>
                                 </div>
                             </div>
-                            <div class="d-flex flex-row">
+                            <div class="d-flex flex-column flex-lg-row">
                                 <div class="col-12 col-lg-2 px-2">
                                     <img src="{{ asset('assets/images/zebra1.PNG') }}"
                                         style="border-radius: 100%; width: 70px; height: 70px;">
@@ -67,7 +67,7 @@
                                     <p class="eventDateTimePurple">2hrs agos</p>
                                 </div>
                             </div>
-                            <div class="d-flex flex-row">
+                            <div class="d-flex flex-column flex-lg-row">
                                 <div class="col-12 col-lg-2 px-2">
                                     <img src="{{ asset('assets/images/zebra1.PNG') }}"
                                         style="border-radius: 100%; width: 70px; height: 70px;">
@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="d-flex flex-column flex-lg-row w-100">
-                    <div class="col-6">
+                    <div class="col-12 col-lg-12">
 
 
                         <p class="parentName mb-0">Post title name</p>
@@ -109,9 +109,9 @@
                             <p class="eventDateTimePurple">2hrs agos</p>
                         </div>
                     </div>
-                    <div class="col-6 px-5 d-flex flex-column">
+                    <div class="col-12 col-lg-6 px-2 px-lg-5 d-flex flex-column">
                         <div class="scrollSec">
-                            <div class="d-flex flex-row">
+                            <div class="d-flex flex-column flex-lg-row">
                                 <div class="col-12 col-lg-2 px-2">
                                     <img src="{{ asset('assets/images/zebra1.PNG') }}"
                                         style="border-radius: 100%; width: 70px; height: 70px;">
@@ -126,7 +126,7 @@
                                     <p class="eventDateTimePurple">2 hrs ago</p>
                                 </div>
                             </div>
-                            <div class="d-flex flex-row">
+                            <div class="d-flex flex-column flex-lg-row">
                                 <div class="col-12 col-lg-2 px-2">
                                     <img src="{{ asset('assets/images/zebra1.PNG') }}"
                                         style="border-radius: 100%; width: 70px; height: 70px;">
@@ -141,7 +141,7 @@
                                     <p class="eventDateTimePurple">2hrs agos</p>
                                 </div>
                             </div>
-                            <div class="d-flex flex-row">
+                            <div class="d-flex flex-column flex-lg-row">
                                 <div class="col-12 col-lg-2 px-2">
                                     <img src="{{ asset('assets/images/zebra1.PNG') }}"
                                         style="border-radius: 100%; width: 70px; height: 70px;">

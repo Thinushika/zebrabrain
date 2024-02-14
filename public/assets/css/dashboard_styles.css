@@ -581,4 +581,7 @@
     .input-group-append button i {
         color: #5a559d;
     }
+    .parentInput {
+        min-width: 250px;
+    }
 }
