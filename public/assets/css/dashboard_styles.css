@@ -434,6 +434,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 9999;
 }
 
 .navbar-toggler i {
@@ -471,7 +472,7 @@
     }
 
     .section-title {
-        font-size: 30px;
+        font-size: 22px;
     }
 
     .dashboard-page-content {
@@ -528,6 +529,7 @@
         width: 100%;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+        z-index: 9999;
     }
 
     .footerMobileSection p{
@@ -539,6 +541,41 @@
     .backTextMobile{
         position: fixed;
         top: 52.13px;
+        z-index: 9999;
+        background-color: #fff;
+        width: 100%;
+        border: none;
     }
-    
+
+    .mobileMainTitle{
+        color: #5a559d;
+        font-size: 32px;
+        line-height: 32px;
+        font-weight: 700;
+    }
+    .mobileProfileDetails h4, .mobileProfileDetails p{
+        color: #5a559d;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .mobileSearch{
+        border-radius: 25px;
+        box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.082), 0 2px 2px rgba(0, 0, 0, 0.082);
+    }
+    .mobileSearch input{
+        border: none;
+    }
+    .mobileSearch input::placeholder{
+        color: #5a559d;
+    }
+    .input-group-append button{
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        color: #5a559d;
+        border: none;
+        outline: none;
+    }
+    .input-group-append button i {
+        color: #5a559d;
+    }
 }
