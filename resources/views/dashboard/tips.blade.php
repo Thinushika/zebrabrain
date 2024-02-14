@@ -110,7 +110,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mb-5 gx-3 gy-3">
+        <div class="row mb-5 gx-3 gy-3 mt-4 mt-lg-0">
             <div class="col-md-4">
                 <div class="video-card">
                     <h3 class="section-title3 text-purple">Management Skills</h3>
@@ -173,12 +173,19 @@
 
         {{-- section 6 --}}
         <div class="row mt-5 mb-5">
-            <div class="col-6 p-5 text-center d-flex flex-column justify-content-center align-items-center">
-                <h3 class="section-title text-purple">Parent community</h3>
-                <button class="yellow-btn mt-4 px-5">Book now</button>
-            </div>
-            <div class="col-6 p-5">
-                <img src="{{ asset('assets/images/brain-suitecase.PNG') }}" class="w-100">
+            <h3 class="section-title text-purple displayOnMobile">Parent community</h3>
+            <div class="d-flex flex-row-reverse flex-lg-row">
+                <div class="col-8 col-lg-6 p-2 p-lg-5 text-center d-flex flex-column justify-content-center align-items-center">
+                    <h3 class="section-title text-purple hideOnMobile">Parent community</h3>
+                    <p class="section-description mt-2 mt-lg-2 displayOnMobile">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta hic asperiores neque quibusdam
+                        reiciendis vero.
+                    </p>
+                    <button class="yellow-btn mt-2 mt-lg-4 px-4 px-lg-5">Book now</button>
+                </div>
+                <div class="col-4 col-lg-6 p-2 p-lg-5">
+                    <img src="{{ asset('assets/images/brain-suitecase.PNG') }}" class="w-100">
+                </div>
             </div>
         </div>
 
