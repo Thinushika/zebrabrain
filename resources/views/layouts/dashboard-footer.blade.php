@@ -1,4 +1,3 @@
-
 <div class="d-flex flex-column flex-lg-row footerSec py-3 px-0">
     <div class="col-12 col-lg-6 d-flex flex-column flex-lg-row">
         <div class="col-12 col-lg-6 d-flex justify-content-center">
@@ -12,9 +11,9 @@
     </div>
     <div class="col-12 col-lg-6 d-flex justify-content-end socialIcons pe-3">
         <i class="bi bi-facebook px-2"></i>
-        <i class="bi bi-twitter px-2"></i>        
-        <i class="bi bi-google px-2"></i>        
-        <i class="bi bi-instagram px-2"></i>    
+        <i class="bi bi-twitter px-2"></i>
+        <i class="bi bi-google px-2"></i>
+        <i class="bi bi-instagram px-2"></i>
     </div>
 </div>
 
@@ -127,6 +126,17 @@ displayCurrentMonth();
 function ConsultationButtonClicked(button) {
     button.classList.add('active');
 }
+
+
+
+// nav
+document.getElementById('navbarToggleBtn').addEventListener('click', function() {
+document.getElementById('drawer').classList.toggle('open');
+});
+
+document.getElementById('closeDrawerBtn').addEventListener('click', function() {
+document.getElementById('drawer').classList.remove('open');
+});
 
 </script>
 </body>

@@ -335,12 +335,12 @@
 }
 
 
-.footerSec{
+.footerSec {
     background-color: #5a559d;
     color: #fff;
 }
 
-.dashboard-nav{
+.dashboard-nav {
     height: 100vh;
     overflow-y: auto;
 }
@@ -359,7 +359,7 @@
     background: transparent;
 }
 
-.dashbordContainer{
+.dashbordContainer {
     height: 100vh;
     overflow-y: auto;
     position: relative !important;
@@ -379,59 +379,143 @@
     background: transparent;
 }
 
-.dashboard-top{
+.dashboard-top {
     position: fixed !important;
     z-index: 99999 !important;
     width: 85% !important;
     margin: 0px;
 }
-.dashboard-page-content{
+
+.dashboard-page-content {
     min-height: 100vh;
     padding-top: 120px;
     padding-left: 0px;
     padding-bottom: 0px;
 }
-.profileContent{
+
+.profileContent {
     min-height: 70vh;
 }
-.socialIcons i{
+
+.socialIcons i {
     font-size: 18px;
 }
 
 @media screen and (min-width: 1400px) {
-    .profileContent{
+    .profileContent {
         min-height: 75vh;
     }
-  }
+}
 
-.displayOnMobile{
+.displayOnMobile {
     display: none;
 }
-.hideOnMobile{
+
+.hideOnMobile {
     display: flex;
 }
+
+
+.drawer {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    background-color: #5a559d;
+    transition: top 0.1s ease-in;
+    z-index: 9999;
+}
+
+.drawer.open {
+    top: 52px;
+}
+
+.navbarMobile {
+    background-color: #5a559d;
+}
+
+.navbar-toggler i {
+    color: #ffde1c !important;
+    font-size: 25px;
+}
+
+.drawerContentWrapper {
+    height: 100vh;
+    overflow-y: auto;
+    position: relative !important;
+}
+
+.drawerContentWrapper::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+
+.drawerContentWrapper::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.drawerContentWrapper::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
 @media screen and (max-width: 600px) {
-    .displayOnMobile{
+    .displayOnMobile {
         display: block;
     }
-    .hideOnMobile{
+
+    .hideOnMobile {
         display: none;
     }
 
-    .section-title{
+    .section-title {
         font-size: 30px;
     }
-    .dashboard-page-content{
+
+    .dashboard-page-content {
         min-height: 100vh;
         padding-top: 100px;
         padding-left: 0px;
         padding-right: 0px;
         padding-bottom: 0px;
     }
-    .grayBox{
+
+    .grayBox {
         background-color: #212529;
         border-radius: 30px;
         height: 100px;
         width: 100%;
+    }
+
+    .signoutTxt {
+        color: #ffde1c;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .backLink {
+        font-size: 14px;
+        line-height: 14px;
+        color: #212529;
+    }
+
+    .backLinkDrawer {
+        font-size: 14px;
+        line-height: 14px;
+        color: #ffde1c;
+    }
+
+    .drawerTitle {
+        font-size: 28px;
+        line-height: 28px;
+        color: #ffde1c;
+    }
+
+    .mobileDrawerMenu li a{
+        font-size: 16px;
+        color: #fff;
+        line-height: 16px;
+        margin-bottom: 0px;
+        font-weight: 500;
     }
 }
