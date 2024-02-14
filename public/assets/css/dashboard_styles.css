@@ -461,7 +461,9 @@
 .drawerContentWrapper::-webkit-scrollbar-thumb {
     background: transparent;
 }
-
+.grayBox{
+    display: none;
+}
 @media screen and (max-width: 600px) {
     .displayOnMobile {
         display: block !important;
@@ -488,6 +490,7 @@
         border-radius: 30px;
         height: 100px;
         width: 100%;
+        display: block;
     }
 
     .signoutTxt {

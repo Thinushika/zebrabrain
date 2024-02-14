@@ -1,13 +1,22 @@
 @include('layouts.dashboard-header')
 <div class="dashboard-page-content">
     <div class="p-3 w-100">
+        <div class="d-flex grayBox"></div>
+
         <h3 class="section-title text-purple mt-3">
             Our Events
         </h3>
 
-        <h3 class="section-title2 text-purple mt-3">All</h3>
+        <div class="d-flex flex-row justify-content-between">
+            <h3 class="section-title2 text-purple mt-3">All</h3>
+            <div class="d-flex flex-row align-items-center">
+                <button class="filter-btn-yellow me-2">Filter by business</button>
+                <i class="fas fa-filter"></i>
+            </div>
+        </div>
+        
 
-        <div class="d-flex w-100">
+        <div class="d-flex w-100 justify-content-center">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 w-100">
                 <div class="col p-2">
                     <div class="eventcard p-3">
@@ -99,16 +108,18 @@
 
 
         {{-- section 6 --}}
-        <div class="row mt-5 mb-5">
-            <div class="col-6 p-5 text-center d-flex flex-column justify-content-center align-items-center">
+        <div class="row mt-5 mb-5 d-flex flex-column-reverse flex-lg-row">
+            <div class="col-12 col-lg-6 p-2 p-lg-5 text-center d-flex flex-column justify-content-center align-items-center">
                 <h3 class="section-title text-purple">Find out your child <br>
                     or your brain!</h3>
                 <button class="yellow-btn mt-1 px-5">Let's find out!</button>
             </div>
-            <div class="col-6 p-5">
+            <div class="col-12 col-lg-6 p-2 p-lg-5">
                 <img src="{{ asset('assets/images/brain-suitecase.PNG') }}" class="w-100">
             </div>
         </div>
+
+
     </div>
 </div>
 @include('layouts.dashboard-footer')
