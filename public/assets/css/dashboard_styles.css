@@ -529,9 +529,16 @@
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
+
     .footerMobileSection p{
         color: #5a559d;
         font-size: 18px;
         font-weight: 600;
     }
+
+    .backTextMobile{
+        position: fixed;
+        top: 52.13px;
+    }
+    
 }

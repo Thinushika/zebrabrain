@@ -130,7 +130,7 @@ $customer_name =CustomerDetails::where('user_id', Auth::user()->id)->value('firs
 
                     </div>
                 </nav>
-                <div class="d-flex px-3 py-2">
+                <div class="d-flex px-3 py-2 displayOnMobile backTextMobile">
                     <a href="#" class="backLink">
                         <i class="fa fa-angle-left"></i>
                         Back
