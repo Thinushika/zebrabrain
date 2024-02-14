@@ -123,7 +123,7 @@
                     <button class="yellow-btn mt-4 px-5">Try again</button>
                 </div>
             </div>
-            <div class="col-5 d-flex justify-content-center align-items-center">
+            <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center hideOnMobile">
                 <img src="{{ asset('assets/images/brain.PNG') }}" class="img-fluid">
             </div>
         </div>
