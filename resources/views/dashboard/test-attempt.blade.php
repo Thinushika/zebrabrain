@@ -2,7 +2,7 @@
 <div class="dashboard-page-content">
     <div class="p-3 w-100">
         <div class="d-flex flex-row">
-            <div class="col-7">
+            <div class="col-12 col-lg-7">
                 <h3 class="section-title text-purple mt-3">
                     My brain test attempts
                 </h3>
@@ -119,7 +119,7 @@
 
                     </div>
                 </div>
-                <div class="d-flex justify-content-end">
+                <div class="d-flex justify-content-center justify-content-lg-end my-5 my-lg-0">
                     <button class="yellow-btn mt-4 px-5">Try again</button>
                 </div>
             </div>
