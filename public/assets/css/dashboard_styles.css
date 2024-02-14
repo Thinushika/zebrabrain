@@ -408,17 +408,16 @@
 }
 
 .displayOnMobile {
-    display: none;
+    display: none !important;
 }
 
 .hideOnMobile {
-    display: flex;
+    display: flex !important;
 }
-
 
 .drawer {
     position: fixed;
-    top: -100%;
+    top: -120%;
     left: 0;
     width: 100%;
     background-color: #5a559d;
@@ -432,6 +431,9 @@
 
 .navbarMobile {
     background-color: #5a559d;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar-toggler i {
@@ -461,11 +463,11 @@
 
 @media screen and (max-width: 600px) {
     .displayOnMobile {
-        display: block;
+        display: block !important;
     }
 
     .hideOnMobile {
-        display: none;
+        display: none !important;
     }
 
     .section-title {
@@ -517,5 +519,19 @@
         line-height: 16px;
         margin-bottom: 0px;
         font-weight: 500;
+    }
+
+    .footerMobileSection{
+        background-color: #ffde1c;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .footerMobileSection p{
+        color: #5a559d;
+        font-size: 18px;
+        font-weight: 600;
     }
 }
