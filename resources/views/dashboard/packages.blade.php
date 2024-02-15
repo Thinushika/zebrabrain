@@ -92,11 +92,13 @@
                     <div class="carousel-item active">
                         <div class=" pricing-card ">
                             <h1 class="title text-center text-purple">Free Package</h1>
-                            <p class="text text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                            <p class="text text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque
                                 fringilla molestie</p>
                             <h1 class="price text-center text-purple">$0.00</h1>
                             <ul class="fa-ul features mt-4">
-                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit amet,
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit
+                                    amet,
                                     consectetur adipiscing elit. </li>
                             </ul>
                             <div class="text-center">
@@ -109,15 +111,19 @@
                     <div class="carousel-item">
                         <div class=" pricing-card ">
                             <h1 class="title text-center text-purple">One Time Plan</h1>
-                            <p class="text text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                            <p class="text text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque
                                 fringilla molestie</p>
                             <h1 class="price text-center text-purple">$50.00</h1>
                             <ul class="fa-ul features mt-4">
-                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit amet,
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit
+                                    amet,
                                     consectetur adipiscing elit. </li>
-                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit amet,
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit
+                                    amet,
                                     consectetur adipiscing elit. </li>
-                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit amet,
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit
+                                    amet,
                                     consectetur adipiscing elit. </li>
                             </ul>
                             <div class="text-center">
@@ -130,19 +136,25 @@
                     <div class="carousel-item">
                         <div class=" pricing-card ">
                             <h1 class="title text-center text-purple">Annual Plan</h1>
-                            <p class="text text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                            <p class="text text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque
                                 fringilla molestie</p>
                             <h1 class="price text-center text-purple">$200.00</h1>
                             <ul class="fa-ul features mt-4">
-                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit amet,
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit
+                                    amet,
                                     consectetur adipiscing elit. </li>
-                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit amet,
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit
+                                    amet,
                                     consectetur adipiscing elit. </li>
-                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit amet,
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit
+                                    amet,
                                     consectetur adipiscing elit. </li>
-                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit amet,
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit
+                                    amet,
                                     consectetur adipiscing elit. </li>
-                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit amet,
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Lorem ipsum dolor sit
+                                    amet,
                                     consectetur adipiscing elit. </li>
                             </ul>
                             <div class="text-center">
@@ -164,6 +176,19 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+
+            <div class="d-flex py-5 flex-column">
+                <h3 class="section-title text-purple">One time access code</h3>
+                <p class="section-description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam repellat corrupti,
+                    quisquam mollitia pariatur nemo delectus impedit earum voluptates?
+                </p>
+                <h3 class="mt-2 text-purple" style="font-size: 14px !important;">Enter your access code</h3>
+                <input type="text" class="pricingInput" id="exampleFormControlInput1" placeholder="Type here"
+                    name="code">
+                <button class="yellow-btn mt-3 mt-lg-4 mb-5 px-4 px-lg-5">Get access</button>
+            </div>
+
         </div>
     </div>
 </div>

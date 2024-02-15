@@ -618,4 +618,13 @@
         border: solid 1px #333;
         border-radius: 100%;
     }
+    .pricingInput{
+        border: solid 1px #ffde1c;
+        color: #5a559d;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .pricingInput::placeholder{
+        color: #5a559d;
+    }
 }
