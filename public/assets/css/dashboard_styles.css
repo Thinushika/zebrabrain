@@ -627,4 +627,12 @@
     .pricingInput::placeholder{
         color: #5a559d;
     }
+    .yellow-btn-small{
+        background-color: #ffde1c;
+        border: none;
+        color: #5a559d;
+        border-radius: 30px;
+        padding: 5px 15px;
+
+    }
 }

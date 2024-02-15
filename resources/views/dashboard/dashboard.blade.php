@@ -370,6 +370,20 @@
         </div>
 
 
+        {{-- new sec --}}
+        <div class="d-flex displayOnMobile pt-5 flex-column">
+            <h3 class="section-title text-purple">Your brain advance strips & result</h3>
+            <div class="d-flex justify-content-center align-items-center">
+                <button class="yellow-btn-small" style="align-self: center">Download report</button>
+            </div>
+            <p class="section-description">
+                Please select areas to know about more
+            </p>
+            <h3 class="section-title text-purple">Realist</h3>
+            <p class="section-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem repellat minima cum sapiente ipsa? Autem, provident eveniet ut mollitia sint cumque ducimus, hic qui enim beatae vitae. Provident doloribus laborum assumenda asperiores at excepturi fugit eos mollitia itaque quisquam incidunt, similique debitis quo quod? Explicabo, cum animi! Nulla, odio pariatur!
+            </p>
+        </div>
 
 
 
