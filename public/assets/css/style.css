@@ -436,3 +436,23 @@ a {
     font-size: 46px;
     font-weight: 700;
 }
+
+
+.nextBtnCalander, .prevBtnCalander{
+    background-color: transparent;
+    border: none;
+}
+.monthYearTxt{
+    color: #3b3b3b;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#calendar thead tr th{
+    width: 30px;
+    height: 30px;
+}
+#calendar tbody tr td{
+    width: 30px;
+    height: 30px;
+}
