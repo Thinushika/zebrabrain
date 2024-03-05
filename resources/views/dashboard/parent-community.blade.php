@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="d-flex flex-column flex-lg-row w-100">
-                    <div class="col-12 col-lg-12">
+                    <div class="col-12 col-lg-6">
 
 
                         <p class="parentName mb-0">Post title name</p>

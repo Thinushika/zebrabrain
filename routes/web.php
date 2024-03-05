@@ -46,3 +46,14 @@ Route::match(['get', 'post'],'/events', [MainController::class, 'events'])->midd
 Route::match(['get', 'post'],'/parent-community', [MainController::class, 'parentCommunity'])->middleware('authCustomer');
 
 
+Route::match(['get', 'post'],'/tip-inner', [MainController::class, 'tipInner'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/university-inner', [MainController::class, 'uniInner'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/internship-inner', [MainController::class, 'internInner'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/scholarship-inner', [MainController::class, 'scholarshipInner'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/super-futer-inner', [MainController::class, 'superFutureInner'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/search-buddy', [MainController::class, 'searchBuddy'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/jobs', [MainController::class, 'jobs'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/jobs-inner', [MainController::class, 'jobsInner'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/consultation-booking-step-2', [MainController::class, 'consultStepTwo'])->middleware('authCustomer');
+
+

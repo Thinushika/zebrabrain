@@ -1,11 +1,11 @@
 @include('layouts.dashboard-header')
 <div class="dashboard-page-content">
 
-    <div class="p-3 w-100">
+    <div class="p-3 w-100 d-flex flex-column">
         <h3 class="section-title text-purple mt-3">
             Profile
         </h3>
-    
+        
     
         <div class="d-flex flex-column flex-lg-row w-100 profileContent">
             <div class="col-12 col-lg-4 displayOnMobile">
@@ -22,7 +22,7 @@
                     enim non.
                 </p>
             </div>
-            <div class="col-12 col-lg-8 w-100 d-flex flex-column flex-lg-row">
+            <div class="col-12 col-lg-8 d-flex flex-column flex-lg-row">
                 <form action="" method="post" enctype="multipart/form-data" class="w-100 d-flex flex-column flex-lg-row justify-content-center">
                     <div class="col-12 col-lg-6 pe-lg-5 d-flex flex-column">
     
@@ -57,8 +57,8 @@
                             @endif
                         </div>
                         <button class="yellow-btn mt-2 mt-lg-4 px-4 px-lg-5 w-100 mb-5">Save</button>
+                    </div>
                 </form>
-
             </div>
             <div class="col-12 col-lg-4 hideOnMobile flex-column">
                 <div class="d-flex flex-column justify-content-center align-items-center mb-3">
@@ -76,9 +76,23 @@
             </div>
         </div>
 
+        
+
         <div class="displayOnMobile d-flex flex-column mb-5">
             <p class="text-purple mb-0 text-center" style="font-weight: 600">You can add parent buddy</p>
             <button class="yellow-btn mt-2 mt-lg-4 px-4 px-lg-5 w-100">Add buddy</button>
+        </div>
+
+        <div class="row mt-5 mb-5 hideOnMobile">
+            <div class="d-flex flex-row-reverse flex-lg-row">
+                <div class="col-8 col-lg-6 p-2 p-lg-5 text-center d-flex flex-column justify-content-center align-items-center">
+                    <h3 class="section-title text-purple ">You can add parent <br> buddy</h3>
+                    <button class="yellow-btn mt-2 mt-lg-4 px-4 px-lg-5">Add budyy</button>
+                </div>
+                <div class="col-4 col-lg-6 p-2 p-lg-5">
+                    <img src="{{ asset('assets/images/brain-suitecase.PNG') }}" class="w-100">
+                </div>
+            </div>
         </div>
         
     </div>

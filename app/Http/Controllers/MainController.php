@@ -80,4 +80,40 @@ class MainController extends Controller
 
         return view('dashboard/parent-community');
     }
+    public function tipInner(){
+
+        return view('dashboard/tip-inner');
+    }
+    public function uniInner(){
+
+        return view('dashboard/university-inner');
+    }
+    public function internInner(){
+
+        return view('dashboard/internship-inner');
+    }
+    public function scholarshipInner(){
+
+        return view('dashboard/scholarship-inner');
+    }
+    public function superFutureInner(){
+
+        return view('dashboard/super-futer-inner');
+    }
+    public function consultStepTwo(){
+
+        return view('dashboard/consultation-booking-step-2');
+    }
+    public function searchBuddy(){
+
+        return view('dashboard/search-buddy');
+    }
+    public function jobs(){
+
+        return view('dashboard/jobs');
+    }
+    public function jobsInner(){
+
+        return view('dashboard/jobs-inner');
+    }
 }

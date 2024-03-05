@@ -456,3 +456,21 @@ a {
     width: 30px;
     height: 30px;
 }
+.selectParentSearch{
+    border: none;
+    color: #ffde1c;
+}
+.buddySearch{
+    max-width: 300px;
+    border: none;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.19), 0 2px 2px rgba(0,0,0,0.23);
+    border-radius: 30px;
+}
+.buddySearch input{
+    border: none;
+    border-radius: 30px;
+}
+.buddySearch button{
+    border: none;
+    border-radius: 30px;
+}
